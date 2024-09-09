@@ -33,5 +33,5 @@ for (let i = 0; i < headerSmallMenuLinks.length; i++) {
 const headerLogoConatiner = document.querySelector('.header__logo-container')
 
 headerLogoConatiner.addEventListener('click', () => {
-  location.href = 'https://prathm2005.github.io/Portfolio-/';
+  location.href = 'https://prathmmal.netlify.app/'
 })
