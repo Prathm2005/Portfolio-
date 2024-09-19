@@ -21,7 +21,9 @@ html {
       font-size: 65%; } }
 
 body {
-    background: url("./images/common-bg.svg");
+  
+  background: url("./images/common-bg.svg");
+  
   box-sizing: border-box;
   position: relative;
   line-height: 1.5;
@@ -596,7 +598,7 @@ textarea {
     border-bottom: 0; }
 
 .main-footer {
-  background: #000;
+  background:#000;
   color: #fff; }
   .main-footer__upper {
     display: flex;
@@ -731,6 +733,46 @@ textarea {
       width: 35vh;
       
     }
+    .certificates__row {
+      display: flex; 
+      align-items: center; 
+      margin-bottom: 20px; 
+      gap: 50px;
+  }
+  
+  .certificates__row-img {
+      border: 1px solid black;
+      border-radius: 5px;
+      width: 100%; 
+      max-width: 300px; 
+      max-height: 200px; 
+      margin-right: 20px; 
+  }
+  
+  .certificates__row-content-desc {
+    display: flex;
+    flex-direction: column; 
+    align-items: center ;
+  }
+  
+  .certificates__row-content-desc .btn {
+      margin-top: 10px; 
+  }
+  
+  
+  @media (max-width: 768px) {
+    .certificates__row {
+        flex-direction: column;
+        align-items:center; 
+ 
+    }
+
+    .certificates__row-content-desc {
+
+        justify-content: center;
+    }
+}
+   
     
     
     @media (max-width: 768px) {
