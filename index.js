@@ -35,3 +35,15 @@ const headerLogoConatiner = document.querySelector('.header__logo-container')
 headerLogoConatiner.addEventListener('click', () => {
   location.href = 'https://prathmmal.netlify.app/'
 })
+
+const goTop=document.querySelector(".back-top");
+
+window.addEventListener("scroll",()=>{
+  if(window.pageYOffset>100){
+    goTop.classList.add("active");
+  }
+  else{
+    goTop.classList.remove("active");
+  }
+})
+
